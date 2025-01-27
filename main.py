@@ -1,3 +1,5 @@
+from serverless_wsgi import handle_request
+import serverless_wsgi
 from flask import Flask, request, jsonify
 from pytube import YouTube
 import re
